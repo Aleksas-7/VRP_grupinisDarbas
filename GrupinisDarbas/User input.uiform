@@ -1,0 +1,1212 @@
+﻿{
+  "Metadata": {
+    "Id": "f52d51f6-57d7-4f6a-9ff5-16ad2eb9cf86",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "User input",
+    "Width": 1200,
+    "Height": 675,
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": "body {\r\n background-image: url('https://i.natgeofe.com/n/c15761fa-d631-4a41-bd23-8e339560709c/nationalgeographic_2670050crop_16x9.jpg?w=1200');\r\n background-repeat: no-repeat;\r\n background-attachment: fixed;\r\n background-size: cover;\r\ncolor: white;\r\n}\r\n\r\n.dropdownCity {\r\ncolor: black;\r\nfont-weight: bold;\r\n}\r\n\r\n.buttonCity {\r\nfont-weight: bold;\r\n}\r\n\r\n\r\n\r\n"
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Select City to travel from",
+        "widget": "choicesjs",
+        "placeholder": "Vilnius",
+        "customClass": "dropdownCity",
+        "tableView": true,
+        "data": {
+          "values": [
+            {
+              "label": "Kaunas",
+              "value": "Kaunas"
+            },
+            {
+              "label": "Klaipėda",
+              "value": "Klaipėda"
+            },
+            {
+              "label": "Vilniaus oro uostas",
+              "value": "Vilniaus oro uostas"
+            },
+            {
+              "label": "Vilnius",
+              "value": "Vilnius"
+            },
+            {
+              "label": "Šiauliai",
+              "value": "Šiauliai"
+            },
+            {
+              "label": "Akmenė",
+              "value": "Akmenė"
+            },
+            {
+              "label": "Alksnėnai",
+              "value": "Alksnėnai"
+            },
+            {
+              "label": "Alvitas",
+              "value": "Alvitas"
+            },
+            {
+              "label": "Augustavas/Augustów",
+              "value": "Augustavas/Augustów"
+            },
+            {
+              "label": "Bagotoji",
+              "value": "Bagotoji"
+            },
+            {
+              "label": "Baisogala",
+              "value": "Baisogala"
+            },
+            {
+              "label": "Balstogė (Žaliakalnio stotis) / Białystok Zielone Wzgórza",
+              "value": "Balstogė (Žaliakalnio stotis) / Białystok Zielone Wzgórza"
+            },
+            {
+              "label": "Balstogė/Białystok",
+              "value": "Balstogė/Białystok"
+            },
+            {
+              "label": "Baltamiškis",
+              "value": "Baltamiškis"
+            },
+            {
+              "label": "Bebruliškė",
+              "value": "Bebruliškė"
+            },
+            {
+              "label": "Bezdonys",
+              "value": "Bezdonys"
+            },
+            {
+              "label": "Būdviečiai",
+              "value": "Būdviečiai"
+            },
+            {
+              "label": "Dambrava/Dąbrowa Białostocka",
+              "value": "Dambrava/Dąbrowa Białostocka"
+            },
+            {
+              "label": "Dituva",
+              "value": "Dituva"
+            },
+            {
+              "label": "Dotnuva",
+              "value": "Dotnuva"
+            },
+            {
+              "label": "Durpynas",
+              "value": "Durpynas"
+            },
+            {
+              "label": "Dūkštas",
+              "value": "Dūkštas"
+            },
+            {
+              "label": "Dūseikiai",
+              "value": "Dūseikiai"
+            },
+            {
+              "label": "El. traukinių depas-1",
+              "value": "El. traukinių depas-1"
+            },
+            {
+              "label": "El. traukinių depas-2",
+              "value": "El. traukinių depas-2"
+            },
+            {
+              "label": "Garliava",
+              "value": "Garliava"
+            },
+            {
+              "label": "Gerkonys",
+              "value": "Gerkonys"
+            },
+            {
+              "label": "Giruliai",
+              "value": "Giruliai"
+            },
+            {
+              "label": "Gružeikiai",
+              "value": "Gružeikiai"
+            },
+            {
+              "label": "Gustonys",
+              "value": "Gustonys"
+            },
+            {
+              "label": "Ignalina",
+              "value": "Ignalina"
+            },
+            {
+              "label": "Jašiūnai",
+              "value": "Jašiūnai"
+            },
+            {
+              "label": "Jelgava",
+              "value": "Jelgava"
+            },
+            {
+              "label": "Jonava",
+              "value": "Jonava"
+            },
+            {
+              "label": "Joniškis",
+              "value": "Joniškis"
+            },
+            {
+              "label": "Juodšiliai",
+              "value": "Juodšiliai"
+            },
+            {
+              "label": "Jūrė",
+              "value": "Jūrė"
+            },
+            {
+              "label": "Kaišiadorys",
+              "value": "Kaišiadorys"
+            },
+            {
+              "label": "Kalviai",
+              "value": "Kalviai"
+            },
+            {
+              "label": "Kariotiškės",
+              "value": "Kariotiškės"
+            },
+            {
+              "label": "Karčiupis",
+              "value": "Karčiupis"
+            },
+            {
+              "label": "Kaugonys",
+              "value": "Kaugonys"
+            },
+            {
+              "label": "Kazlų Rūda",
+              "value": "Kazlų Rūda"
+            },
+            {
+              "label": "Kena",
+              "value": "Kena"
+            },
+            {
+              "label": "Kirtimai",
+              "value": "Kirtimai"
+            },
+            {
+              "label": "Klaipėda (Nida)",
+              "value": "Klaipėda (Nida)"
+            },
+            {
+              "label": "Klepočiai",
+              "value": "Klepočiai"
+            },
+            {
+              "label": "Kretinga",
+              "value": "Kretinga"
+            },
+            {
+              "label": "Kretinga (Palanga)",
+              "value": "Kretinga (Palanga)"
+            },
+            {
+              "label": "Krokuva (Pagrindinė stotis)/ Kraków Główny",
+              "value": "Krokuva (Pagrindinė stotis)/ Kraków Główny"
+            },
+            {
+              "label": "Kukorai",
+              "value": "Kukorai"
+            },
+            {
+              "label": "Kuršėnai",
+              "value": "Kuršėnai"
+            },
+            {
+              "label": "Kutiškiai",
+              "value": "Kutiškiai"
+            },
+            {
+              "label": "Kužiai",
+              "value": "Kužiai"
+            },
+            {
+              "label": "Kybartai",
+              "value": "Kybartai"
+            },
+            {
+              "label": "Kyviškės",
+              "value": "Kyviškės"
+            },
+            {
+              "label": "Kėdainiai",
+              "value": "Kėdainiai"
+            },
+            {
+              "label": "Kūlupėnai",
+              "value": "Kūlupėnai"
+            },
+            {
+              "label": "Laba",
+              "value": "Laba"
+            },
+            {
+              "label": "Labučiai",
+              "value": "Labučiai"
+            },
+            {
+              "label": "Lapos/Łapy",
+              "value": "Lapos/Łapy"
+            },
+            {
+              "label": "Lazdėnai",
+              "value": "Lazdėnai"
+            },
+            {
+              "label": "Lentvaris",
+              "value": "Lentvaris"
+            },
+            {
+              "label": "Lieplaukė",
+              "value": "Lieplaukė"
+            },
+            {
+              "label": "Lobiniai",
+              "value": "Lobiniai"
+            },
+            {
+              "label": "Lochuvas/Łochów",
+              "value": "Lochuvas/Łochów"
+            },
+            {
+              "label": "Malkinia/Małkinia",
+              "value": "Malkinia/Małkinia"
+            },
+            {
+              "label": "Mankiškiai",
+              "value": "Mankiškiai"
+            },
+            {
+              "label": "Marcinkonys",
+              "value": "Marcinkonys"
+            },
+            {
+              "label": "Marijampolė",
+              "value": "Marijampolė"
+            },
+            {
+              "label": "Matuizos",
+              "value": "Matuizos"
+            },
+            {
+              "label": "Mauručiai",
+              "value": "Mauručiai"
+            },
+            {
+              "label": "Mažeikiai",
+              "value": "Mažeikiai"
+            },
+            {
+              "label": "Mechuvas/Miechów",
+              "value": "Mechuvas/Miechów"
+            },
+            {
+              "label": "Mickūnai",
+              "value": "Mickūnai"
+            },
+            {
+              "label": "Miškiniai",
+              "value": "Miškiniai"
+            },
+            {
+              "label": "Mockava",
+              "value": "Mockava"
+            },
+            {
+              "label": "Naujoji Vilnia",
+              "value": "Naujoji Vilnia"
+            },
+            {
+              "label": "Opočnas (Pietinė stotis)/Opoczno Południe",
+              "value": "Opočnas (Pietinė stotis)/Opoczno Południe"
+            },
+            {
+              "label": "Pabališkiai",
+              "value": "Pabališkiai"
+            },
+            {
+              "label": "Pabradė",
+              "value": "Pabradė"
+            },
+            {
+              "label": "Pailgis",
+              "value": "Pailgis"
+            },
+            {
+              "label": "Pakenė",
+              "value": "Pakenė"
+            },
+            {
+              "label": "Pakretuonė",
+              "value": "Pakretuonė"
+            },
+            {
+              "label": "Palemonas",
+              "value": "Palemonas"
+            },
+            {
+              "label": "Pamerkiai",
+              "value": "Pamerkiai"
+            },
+            {
+              "label": "Pamieris",
+              "value": "Pamieris"
+            },
+            {
+              "label": "Paneriai",
+              "value": "Paneriai"
+            },
+            {
+              "label": "Panevėžys",
+              "value": "Panevėžys"
+            },
+            {
+              "label": "Papilė",
+              "value": "Papilė"
+            },
+            {
+              "label": "Parudaminys",
+              "value": "Parudaminys"
+            },
+            {
+              "label": "Pavenčiai",
+              "value": "Pavenčiai"
+            },
+            {
+              "label": "Pavilnys",
+              "value": "Pavilnys"
+            },
+            {
+              "label": "Pažeimenė",
+              "value": "Pažeimenė"
+            },
+            {
+              "label": "Pilviškiai",
+              "value": "Pilviškiai"
+            },
+            {
+              "label": "Plungė",
+              "value": "Plungė"
+            },
+            {
+              "label": "Pravieniškės",
+              "value": "Pravieniškės"
+            },
+            {
+              "label": "Priekulė",
+              "value": "Priekulė"
+            },
+            {
+              "label": "Radviliškis",
+              "value": "Radviliškis"
+            },
+            {
+              "label": "Raudėnai",
+              "value": "Raudėnai"
+            },
+            {
+              "label": "Rimkai",
+              "value": "Rimkai"
+            },
+            {
+              "label": "Ryga",
+              "value": "Ryga"
+            },
+            {
+              "label": "Rykantai",
+              "value": "Rykantai"
+            },
+            {
+              "label": "Rūdiškės",
+              "value": "Rūdiškės"
+            },
+            {
+              "label": "Santaka",
+              "value": "Santaka"
+            },
+            {
+              "label": "Senieji Trakai",
+              "value": "Senieji Trakai"
+            },
+            {
+              "label": "Skersabaliai",
+              "value": "Skersabaliai"
+            },
+            {
+              "label": "Sodai",
+              "value": "Sodai"
+            },
+            {
+              "label": "Sokulka/Sokółka",
+              "value": "Sokulka/Sokółka"
+            },
+            {
+              "label": "Suvalkai/Suwałki",
+              "value": "Suvalkai/Suwałki"
+            },
+            {
+              "label": "Tarvainiai",
+              "value": "Tarvainiai"
+            },
+            {
+              "label": "Telšiai",
+              "value": "Telšiai"
+            },
+            {
+              "label": "Terešiškės",
+              "value": "Terešiškės"
+            },
+            {
+              "label": "Tluščius/Tłuszcz",
+              "value": "Tluščius/Tłuszcz"
+            },
+            {
+              "label": "Trakai",
+              "value": "Trakai"
+            },
+            {
+              "label": "Trakiškė/Trakiszki",
+              "value": "Trakiškė/Trakiszki"
+            },
+            {
+              "label": "Tryškiai",
+              "value": "Tryškiai"
+            },
+            {
+              "label": "Turmantas",
+              "value": "Turmantas"
+            },
+            {
+              "label": "Valkininkai",
+              "value": "Valkininkai"
+            },
+            {
+              "label": "Valčiūnai",
+              "value": "Valčiūnai"
+            },
+            {
+              "label": "Varėna",
+              "value": "Varėna"
+            },
+            {
+              "label": "Varšuva (Centrinė stotis)/ Warszawa Centralna",
+              "value": "Varšuva (Centrinė stotis)/ Warszawa Centralna"
+            },
+            {
+              "label": "Varšuva (Rytinė stotis)/ Warszawa Wschodnia",
+              "value": "Varšuva (Rytinė stotis)/ Warszawa Wschodnia"
+            },
+            {
+              "label": "Varšuva (Vakarinė stotis)/ Warszawa Zachodnia",
+              "value": "Varšuva (Vakarinė stotis)/ Warszawa Zachodnia"
+            },
+            {
+              "label": "Viekšniai",
+              "value": "Viekšniai"
+            },
+            {
+              "label": "Vievis",
+              "value": "Vievis"
+            },
+            {
+              "label": "Vilkaviškis",
+              "value": "Vilkaviškis"
+            },
+            {
+              "label": "Vilkyčiai",
+              "value": "Vilkyčiai"
+            },
+            {
+              "label": "Vinčai",
+              "value": "Vinčai"
+            },
+            {
+              "label": "Visaginas",
+              "value": "Visaginas"
+            },
+            {
+              "label": "Vloščova (Šiaurinė stotis)/Włoszczowa Północ",
+              "value": "Vloščova (Šiaurinė stotis)/Włoszczowa Północ"
+            },
+            {
+              "label": "Vokė",
+              "value": "Vokė"
+            },
+            {
+              "label": "Volominas/Wołomin",
+              "value": "Volominas/Wołomin"
+            },
+            {
+              "label": "Zervynos",
+              "value": "Zervynos"
+            },
+            {
+              "label": "Čyževas/Czyżew",
+              "value": "Čyževas/Czyżew"
+            },
+            {
+              "label": "Šateikiai",
+              "value": "Šateikiai"
+            },
+            {
+              "label": "Šeduva",
+              "value": "Šeduva"
+            },
+            {
+              "label": "Šepetovas/Szepietowo",
+              "value": "Šepetovas/Szepietowo"
+            },
+            {
+              "label": "Šilutė",
+              "value": "Šilutė"
+            },
+            {
+              "label": "Šilėnai",
+              "value": "Šilėnai"
+            },
+            {
+              "label": "Šklėriai",
+              "value": "Šklėriai"
+            },
+            {
+              "label": "Švenčionėliai",
+              "value": "Švenčionėliai"
+            },
+            {
+              "label": "Žasliai",
+              "value": "Žasliai"
+            },
+            {
+              "label": "Žeimena",
+              "value": "Žeimena"
+            }
+          ]
+        },
+        "key": "selectCityToTravelFrom",
+        "type": "select",
+        "input": true,
+        "keyModified": true
+      },
+      {
+        "label": "Select City to travel to",
+        "widget": "choicesjs",
+        "placeholder": "Kaunas",
+        "customClass": "dropdownCity",
+        "tableView": true,
+        "data": {
+          "values": [
+            {
+              "label": "Kaunas",
+              "value": "Kaunas"
+            },
+            {
+              "label": "Klaipėda",
+              "value": "Klaipėda"
+            },
+            {
+              "label": "Vilniaus oro uostas",
+              "value": "Vilniaus oro uostas"
+            },
+            {
+              "label": "Vilnius",
+              "value": "Vilnius"
+            },
+            {
+              "label": "Šiauliai",
+              "value": "Šiauliai"
+            },
+            {
+              "label": "Akmenė",
+              "value": "Akmenė"
+            },
+            {
+              "label": "Alksnėnai",
+              "value": "Alksnėnai"
+            },
+            {
+              "label": "Alvitas",
+              "value": "Alvitas"
+            },
+            {
+              "label": "Augustavas/Augustów",
+              "value": "Augustavas/Augustów"
+            },
+            {
+              "label": "Bagotoji",
+              "value": "Bagotoji"
+            },
+            {
+              "label": "Baisogala",
+              "value": "Baisogala"
+            },
+            {
+              "label": "Balstogė (Žaliakalnio stotis) / Białystok Zielone Wzgórza",
+              "value": "Balstogė (Žaliakalnio stotis) / Białystok Zielone Wzgórza"
+            },
+            {
+              "label": "Balstogė/Białystok",
+              "value": "Balstogė/Białystok"
+            },
+            {
+              "label": "Baltamiškis",
+              "value": "Baltamiškis"
+            },
+            {
+              "label": "Bebruliškė",
+              "value": "Bebruliškė"
+            },
+            {
+              "label": "Bezdonys",
+              "value": "Bezdonys"
+            },
+            {
+              "label": "Būdviečiai",
+              "value": "Būdviečiai"
+            },
+            {
+              "label": "Dambrava/Dąbrowa Białostocka",
+              "value": "Dambrava/Dąbrowa Białostocka"
+            },
+            {
+              "label": "Dituva",
+              "value": "Dituva"
+            },
+            {
+              "label": "Dotnuva",
+              "value": "Dotnuva"
+            },
+            {
+              "label": "Durpynas",
+              "value": "Durpynas"
+            },
+            {
+              "label": "Dūkštas",
+              "value": "Dūkštas"
+            },
+            {
+              "label": "Dūseikiai",
+              "value": "Dūseikiai"
+            },
+            {
+              "label": "El. traukinių depas-1",
+              "value": "El. traukinių depas-1"
+            },
+            {
+              "label": "El. traukinių depas-2",
+              "value": "El. traukinių depas-2"
+            },
+            {
+              "label": "Garliava",
+              "value": "Garliava"
+            },
+            {
+              "label": "Gerkonys",
+              "value": "Gerkonys"
+            },
+            {
+              "label": "Giruliai",
+              "value": "Giruliai"
+            },
+            {
+              "label": "Gružeikiai",
+              "value": "Gružeikiai"
+            },
+            {
+              "label": "Gustonys",
+              "value": "Gustonys"
+            },
+            {
+              "label": "Ignalina",
+              "value": "Ignalina"
+            },
+            {
+              "label": "Jašiūnai",
+              "value": "Jašiūnai"
+            },
+            {
+              "label": "Jelgava",
+              "value": "Jelgava"
+            },
+            {
+              "label": "Jonava",
+              "value": "Jonava"
+            },
+            {
+              "label": "Joniškis",
+              "value": "Joniškis"
+            },
+            {
+              "label": "Juodšiliai",
+              "value": "Juodšiliai"
+            },
+            {
+              "label": "Jūrė",
+              "value": "Jūrė"
+            },
+            {
+              "label": "Kaišiadorys",
+              "value": "Kaišiadorys"
+            },
+            {
+              "label": "Kalviai",
+              "value": "Kalviai"
+            },
+            {
+              "label": "Kariotiškės",
+              "value": "Kariotiškės"
+            },
+            {
+              "label": "Karčiupis",
+              "value": "Karčiupis"
+            },
+            {
+              "label": "Kaugonys",
+              "value": "Kaugonys"
+            },
+            {
+              "label": "Kazlų Rūda",
+              "value": "Kazlų Rūda"
+            },
+            {
+              "label": "Kena",
+              "value": "Kena"
+            },
+            {
+              "label": "Kirtimai",
+              "value": "Kirtimai"
+            },
+            {
+              "label": "Klaipėda (Nida)",
+              "value": "Klaipėda (Nida)"
+            },
+            {
+              "label": "Klepočiai",
+              "value": "Klepočiai"
+            },
+            {
+              "label": "Kretinga",
+              "value": "Kretinga"
+            },
+            {
+              "label": "Kretinga (Palanga)",
+              "value": "Kretinga (Palanga)"
+            },
+            {
+              "label": "Krokuva (Pagrindinė stotis)/ Kraków Główny",
+              "value": "Krokuva (Pagrindinė stotis)/ Kraków Główny"
+            },
+            {
+              "label": "Kukorai",
+              "value": "Kukorai"
+            },
+            {
+              "label": "Kuršėnai",
+              "value": "Kuršėnai"
+            },
+            {
+              "label": "Kutiškiai",
+              "value": "Kutiškiai"
+            },
+            {
+              "label": "Kužiai",
+              "value": "Kužiai"
+            },
+            {
+              "label": "Kybartai",
+              "value": "Kybartai"
+            },
+            {
+              "label": "Kyviškės",
+              "value": "Kyviškės"
+            },
+            {
+              "label": "Kėdainiai",
+              "value": "Kėdainiai"
+            },
+            {
+              "label": "Kūlupėnai",
+              "value": "Kūlupėnai"
+            },
+            {
+              "label": "Laba",
+              "value": "Laba"
+            },
+            {
+              "label": "Labučiai",
+              "value": "Labučiai"
+            },
+            {
+              "label": "Lapos/Łapy",
+              "value": "Lapos/Łapy"
+            },
+            {
+              "label": "Lazdėnai",
+              "value": "Lazdėnai"
+            },
+            {
+              "label": "Lentvaris",
+              "value": "Lentvaris"
+            },
+            {
+              "label": "Lieplaukė",
+              "value": "Lieplaukė"
+            },
+            {
+              "label": "Lobiniai",
+              "value": "Lobiniai"
+            },
+            {
+              "label": "Lochuvas/Łochów",
+              "value": "Lochuvas/Łochów"
+            },
+            {
+              "label": "Malkinia/Małkinia",
+              "value": "Malkinia/Małkinia"
+            },
+            {
+              "label": "Mankiškiai",
+              "value": "Mankiškiai"
+            },
+            {
+              "label": "Marcinkonys",
+              "value": "Marcinkonys"
+            },
+            {
+              "label": "Marijampolė",
+              "value": "Marijampolė"
+            },
+            {
+              "label": "Matuizos",
+              "value": "Matuizos"
+            },
+            {
+              "label": "Mauručiai",
+              "value": "Mauručiai"
+            },
+            {
+              "label": "Mažeikiai",
+              "value": "Mažeikiai"
+            },
+            {
+              "label": "Mechuvas/Miechów",
+              "value": "Mechuvas/Miechów"
+            },
+            {
+              "label": "Mickūnai",
+              "value": "Mickūnai"
+            },
+            {
+              "label": "Miškiniai",
+              "value": "Miškiniai"
+            },
+            {
+              "label": "Mockava",
+              "value": "Mockava"
+            },
+            {
+              "label": "Naujoji Vilnia",
+              "value": "Naujoji Vilnia"
+            },
+            {
+              "label": "Opočnas (Pietinė stotis)/Opoczno Południe",
+              "value": "Opočnas (Pietinė stotis)/Opoczno Południe"
+            },
+            {
+              "label": "Pabališkiai",
+              "value": "Pabališkiai"
+            },
+            {
+              "label": "Pabradė",
+              "value": "Pabradė"
+            },
+            {
+              "label": "Pailgis",
+              "value": "Pailgis"
+            },
+            {
+              "label": "Pakenė",
+              "value": "Pakenė"
+            },
+            {
+              "label": "Pakretuonė",
+              "value": "Pakretuonė"
+            },
+            {
+              "label": "Palemonas",
+              "value": "Palemonas"
+            },
+            {
+              "label": "Pamerkiai",
+              "value": "Pamerkiai"
+            },
+            {
+              "label": "Pamieris",
+              "value": "Pamieris"
+            },
+            {
+              "label": "Paneriai",
+              "value": "Paneriai"
+            },
+            {
+              "label": "Panevėžys",
+              "value": "Panevėžys"
+            },
+            {
+              "label": "Papilė",
+              "value": "Papilė"
+            },
+            {
+              "label": "Parudaminys",
+              "value": "Parudaminys"
+            },
+            {
+              "label": "Pavenčiai",
+              "value": "Pavenčiai"
+            },
+            {
+              "label": "Pavilnys",
+              "value": "Pavilnys"
+            },
+            {
+              "label": "Pažeimenė",
+              "value": "Pažeimenė"
+            },
+            {
+              "label": "Pilviškiai",
+              "value": "Pilviškiai"
+            },
+            {
+              "label": "Plungė",
+              "value": "Plungė"
+            },
+            {
+              "label": "Pravieniškės",
+              "value": "Pravieniškės"
+            },
+            {
+              "label": "Priekulė",
+              "value": "Priekulė"
+            },
+            {
+              "label": "Radviliškis",
+              "value": "Radviliškis"
+            },
+            {
+              "label": "Raudėnai",
+              "value": "Raudėnai"
+            },
+            {
+              "label": "Rimkai",
+              "value": "Rimkai"
+            },
+            {
+              "label": "Ryga",
+              "value": "Ryga"
+            },
+            {
+              "label": "Rykantai",
+              "value": "Rykantai"
+            },
+            {
+              "label": "Rūdiškės",
+              "value": "Rūdiškės"
+            },
+            {
+              "label": "Santaka",
+              "value": "Santaka"
+            },
+            {
+              "label": "Senieji Trakai",
+              "value": "Senieji Trakai"
+            },
+            {
+              "label": "Skersabaliai",
+              "value": "Skersabaliai"
+            },
+            {
+              "label": "Sodai",
+              "value": "Sodai"
+            },
+            {
+              "label": "Sokulka/Sokółka",
+              "value": "Sokulka/Sokółka"
+            },
+            {
+              "label": "Suvalkai/Suwałki",
+              "value": "Suvalkai/Suwałki"
+            },
+            {
+              "label": "Tarvainiai",
+              "value": "Tarvainiai"
+            },
+            {
+              "label": "Telšiai",
+              "value": "Telšiai"
+            },
+            {
+              "label": "Terešiškės",
+              "value": "Terešiškės"
+            },
+            {
+              "label": "Tluščius/Tłuszcz",
+              "value": "Tluščius/Tłuszcz"
+            },
+            {
+              "label": "Trakai",
+              "value": "Trakai"
+            },
+            {
+              "label": "Trakiškė/Trakiszki",
+              "value": "Trakiškė/Trakiszki"
+            },
+            {
+              "label": "Tryškiai",
+              "value": "Tryškiai"
+            },
+            {
+              "label": "Turmantas",
+              "value": "Turmantas"
+            },
+            {
+              "label": "Valkininkai",
+              "value": "Valkininkai"
+            },
+            {
+              "label": "Valčiūnai",
+              "value": "Valčiūnai"
+            },
+            {
+              "label": "Varėna",
+              "value": "Varėna"
+            },
+            {
+              "label": "Varšuva (Centrinė stotis)/ Warszawa Centralna",
+              "value": "Varšuva (Centrinė stotis)/ Warszawa Centralna"
+            },
+            {
+              "label": "Varšuva (Rytinė stotis)/ Warszawa Wschodnia",
+              "value": "Varšuva (Rytinė stotis)/ Warszawa Wschodnia"
+            },
+            {
+              "label": "Varšuva (Vakarinė stotis)/ Warszawa Zachodnia",
+              "value": "Varšuva (Vakarinė stotis)/ Warszawa Zachodnia"
+            },
+            {
+              "label": "Viekšniai",
+              "value": "Viekšniai"
+            },
+            {
+              "label": "Vievis",
+              "value": "Vievis"
+            },
+            {
+              "label": "Vilkaviškis",
+              "value": "Vilkaviškis"
+            },
+            {
+              "label": "Vilkyčiai",
+              "value": "Vilkyčiai"
+            },
+            {
+              "label": "Vinčai",
+              "value": "Vinčai"
+            },
+            {
+              "label": "Visaginas",
+              "value": "Visaginas"
+            },
+            {
+              "label": "Vloščova (Šiaurinė stotis)/Włoszczowa Północ",
+              "value": "Vloščova (Šiaurinė stotis)/Włoszczowa Północ"
+            },
+            {
+              "label": "Vokė",
+              "value": "Vokė"
+            },
+            {
+              "label": "Volominas/Wołomin",
+              "value": "Volominas/Wołomin"
+            },
+            {
+              "label": "Zervynos",
+              "value": "Zervynos"
+            },
+            {
+              "label": "Čyževas/Czyżew",
+              "value": "Čyževas/Czyżew"
+            },
+            {
+              "label": "Šateikiai",
+              "value": "Šateikiai"
+            },
+            {
+              "label": "Šeduva",
+              "value": "Šeduva"
+            },
+            {
+              "label": "Šepetovas/Szepietowo",
+              "value": "Šepetovas/Szepietowo"
+            },
+            {
+              "label": "Šilutė",
+              "value": "Šilutė"
+            },
+            {
+              "label": "Šilėnai",
+              "value": "Šilėnai"
+            },
+            {
+              "label": "Šklėriai",
+              "value": "Šklėriai"
+            },
+            {
+              "label": "Švenčionėliai",
+              "value": "Švenčionėliai"
+            },
+            {
+              "label": "Žasliai",
+              "value": "Žasliai"
+            },
+            {
+              "label": "Žeimena",
+              "value": "Žeimena"
+            }
+          ]
+        },
+        "key": "selectCityToTravelTo",
+        "type": "select",
+        "input": true,
+        "keyModified": true
+      },
+      {
+        "label": "Submit",
+        "showValidations": false,
+        "customClass": "buttonCity",
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "saveOnEnter": true,
+        "input": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TITLE CUSTOM INPUT</title>
+  </head>
+  <body>
+    <h2>Simple Form</h2>
+    <form>
+      First name:<br />
+      <input type="text" name="firstname" id="FirstName" />
+      <br />
+      Last name:<br />
+      <input type="text" name="lastname" id="LastName" />
+      <br />
+      Age:<br />
+      <input type="text" name="age" id="Age" />
+      <br /><br />
+      <input type="submit" value="Submit" id="SubmitButton" />
+    </form>
+
+    <script>
+      document.getElementById("SubmitButton").onclick = function () {
+        var FirstName = document.getElementById("FirstName").value;
+        var LastName = document.getElementById("LastName").value;
+        var Age = document.getElementById("Age").value;
+        var OutputString = '{"First_Name":"' + FirstName + '",' + '"Last_Name":"' + LastName + '",' + '"Age":"' + Age + '"}';
+        window.external.setResult(OutputString);
+      };
+    </script>
+  </body>
+</html>
